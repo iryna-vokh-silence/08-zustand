@@ -23,7 +23,7 @@ export async function generateMetadata({
 
   const title = `Notes: ${filterName} | NoteHub`;
   const description = `Browse notes filtered by "${filterName}" in NoteHub.`;
-  const url = `https://08-zustand.vercel.app/notes/filter/${rawTag}`;
+  const url = `https://08-zustand-virid-one.vercel.app/notes/filter/${rawTag}`;
 
   return {
     title,
