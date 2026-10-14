@@ -23,7 +23,7 @@ export async function generateMetadata({
     note.content.length > 100 ? `${note.content.slice(0, 100)}…` : note.content;
   const description =
     excerpt.trim() !== "" ? excerpt : `Note "${note.title}" on NoteHub.`;
-  const url = `https://08-zustand.vercel.app/notes/${id}`;
+  const url = `https://08-zustand-virid-one.vercel.app/notes/${id}`;
 
   return {
     title: `${note.title} | NoteHub`,
