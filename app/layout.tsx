@@ -14,7 +14,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://08-zustand.vercel.app"),
+  metadataBase: new URL("https://08-zustand-virid-one.vercel.app"),
   title: "NoteHub",
   description:
     "NoteHub — a simple and efficient application for note management.",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "NoteHub",
     description:
       "NoteHub — a simple and efficient application for note management.",
-    url: "https://08-zustand.vercel.app",
+    url: "https://08-zustand-virid-one.vercel.app",
     images: [
       {
         url: "https://ac.goit.global/fullstack/react/notehub-og-meta.jpg",
