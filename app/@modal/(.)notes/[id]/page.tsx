@@ -4,7 +4,7 @@ import {
   QueryClient,
 } from "@tanstack/react-query";
 import { fetchNoteById } from "../../../../lib/api";
-import NotePreview from "../../../../components/NotePreview/NotePreview";
+import NotePreview from "./NotePreview.client";
 
 export const dynamic = "force-dynamic";
 
