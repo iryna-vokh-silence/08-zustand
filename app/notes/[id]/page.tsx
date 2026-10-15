@@ -5,7 +5,7 @@ import {
   QueryClient,
 } from "@tanstack/react-query";
 import { fetchNoteById } from "../../../lib/api";
-import NoteDetails from "../../../components/NoteDetails/NoteDetails";
+import NoteDetails from "./NoteDetails.client";
 
 export const dynamic = "force-dynamic";
 
